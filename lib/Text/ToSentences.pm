@@ -35,7 +35,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'test'} } );
 #     _correctDotsAndSpaces
 # );
 
-our $VERSION = '0.10';
+our $VERSION = '0.91';
 
 our %blockDelimiters = ("(" => ")",
                         "[" => "]");
