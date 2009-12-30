@@ -35,7 +35,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'test'} } );
 #     _correctDotsAndSpaces
 # );
 
-our $VERSION = '0.9.1';
+our $VERSION = '0.10';
 
 our %blockDelimiters = ("(" => ")",
                         "[" => "]");
@@ -56,7 +56,7 @@ Text::ToSentences - Perl extension for converting pieces of text into individual
 =head1 SYNOPSIS
 
   use Text::ToSentences;
-  @sentences = Text::ToSentences::convert($text);
+  @sentences = @{Text::ToSentences::convert($text)};
 
 =head1 DESCRIPTION
 
